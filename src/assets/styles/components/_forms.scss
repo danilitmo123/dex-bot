@@ -1,0 +1,132 @@
+@import "../base/variables";
+
+.gray-btn {
+  @extend %g-medium;
+  @extend %transition;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  background-color: rgba(24, 24, 51, 0.6);
+  padding: 8px 11px;
+  border-radius: 20px;
+  cursor: pointer;
+  grid-gap: 7px;
+
+  &:hover {
+    opacity: .7;
+  }
+
+  i {
+    font-size: 14px;
+  }
+}
+
+.btn-border {
+  @extend .gray-btn;
+  background-color: #FFFFFF;
+  border: 1px solid rgba(24, 24, 51, 0.1);
+  color: #181833;
+
+  i {
+    font-size: 10px;
+  }
+}
+
+.add-btn {
+  @extend %transition;
+  @extend %g-semi-bold;
+  padding: 8px 24px;
+  border: 1px solid #04C35C;
+  border-radius: 24px;
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 30px;
+  color: #04C35C;
+  display: flex;
+  align-items: center;
+  grid-gap: 11px;
+
+  &:hover {
+    opacity: .7;
+    color: #04C35C;
+  }
+
+  @media #{$phone} {
+    padding: 4px 12px;
+    min-width: max-content;
+  }
+
+  i {
+    font-size: 20px;
+  }
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  grid-gap: 14px;
+  min-width: 224px;
+  max-width: 224px;
+  padding: 9px 15px;
+  background: #FBFBFB;
+  border-radius: 24px;
+
+  @media #{$phone} {
+    padding: 5px 10px;
+    width: 100%;
+    min-width: initial;
+  }
+
+  &__input {
+    @extend %g-medium;
+    font-size: 14px;
+    line-height: 30px;
+    color: #1818334C;
+    background-color: transparent;
+
+    &::placeholder {
+      color: rgba(24, 24, 51, 0.3);
+    }
+  }
+
+  &__ic {
+    color: rgba(24, 24, 51, 0.3);
+    font-size: 16px;
+  }
+}
+
+.btn-green {
+  @extend %g-semi-bold;
+  @extend %transition;
+  background: #04C35C;
+  border-radius: 4px;
+  padding: 14px;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+  text-align: center;
+  cursor: pointer;
+
+  &:hover {
+    opacity: .7;
+  }
+}
+
+.green-link {
+  @extend %transition;
+  @extend %g-semi-bold;
+  display: flex;
+  justify-content: center;
+  grid-gap: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 20px;
+  color: #04C35C;
+
+  &:hover {
+    opacity: .7;
+    color: #04C35C;
+  }
+}

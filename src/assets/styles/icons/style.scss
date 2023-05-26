@@ -1,0 +1,105 @@
+@import "variables";
+
+@font-face {
+  font-family: '#{$icomoon-font-family}';
+  src: url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?koyehs') format('truetype'),
+  url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?koyehs') format('woff'),
+  url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?koyehs##{$icomoon-font-family}') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: '#{$icomoon-font-family}' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-edit {
+  &:before {
+    content: $icon-edit;
+  }
+}
+
+.icon-user {
+  &:before {
+    content: $icon-user;
+  }
+}
+
+.icon-plus {
+  &:before {
+    content: $icon-plus;
+  }
+}
+
+.icon-arrow-right {
+  &:before {
+    content: $icon-arrow-right;
+  }
+}
+
+.icon-arrow-left {
+  &:before {
+    content: $icon-arrow-left;
+  }
+}
+
+.icon-link {
+  &:before {
+    content: $icon-link;
+  }
+}
+
+.icon-drop-arrow {
+  &:before {
+    content: $icon-drop-arrow;
+  }
+}
+
+.icon-search {
+  &:before {
+    content: $icon-search;
+  }
+}
+
+.icon-Facebook {
+  &:before {
+    content: $icon-Facebook;
+  }
+}
+
+.icon-Instagram {
+  &:before {
+    content: $icon-Instagram;
+  }
+}
+
+.icon-LinkedIn {
+  &:before {
+    content: $icon-LinkedIn;
+  }
+}
+
+.icon-Twitter {
+  &:before {
+    content: $icon-Twitter;
+  }
+}
+
+.icon-YouTube {
+  &:before {
+    content: $icon-YouTube;
+  }
+}
+

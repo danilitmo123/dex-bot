@@ -1,0 +1,117 @@
+@font-face {
+  font-family: 'Gilroy';
+  src: url('../../fonts/Gilroy-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('../../fonts/Gilroy-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('../../fonts/Gilroy-Semibold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+}
+
+body {
+  font-size: 14px;
+  font-family: 'Gilroy', sans-serif;
+  font-weight: 400;
+}
+
+h3 span {
+  font-size: 14px;
+  color: #8e8ea8;
+  text-shadow: 1px 1px 2px rgba(142, 142, 168, .2);
+}
+
+.btn-withdrawal {
+  --bs-btn-padding-y: .25rem;
+  --bs-btn-padding-x: .5rem;
+  --bs-btn-font-size: .75rem;
+}
+
+.tooltipArea {
+  position: absolute;
+  z-index: 10;
+  font-size: 12px;
+  width: 250px;
+  margin-left: -225px;
+  margin-top: -115px;
+  background-color: rgba(0, 0, 0, 0.80);
+  padding: 5px;
+  color: rgb(255, 255, 255);
+  border-radius: 5px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.dropdown button:focus + .dropdown-menu,
+.dropdown-menu:hover {
+  display: block;
+}
+
+.tooltipArea {
+  display: none;
+}
+
+.tooltipItem img:hover + .tooltipArea {
+  display: block;
+}
+
+.form-control, .form-select {
+  font-size: 14px;
+}
+
+.form-select {
+  width: 90%;
+}
+
+.form-control {
+  display: inline-block;
+  width: 90%;
+}
+
+table td, table th {
+  white-space: pre;
+}
+
+table td img, table th img {
+  max-width: unset;
+}
+
+.between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container {
+  padding: 0 15px;
+  width: 100%;
+  max-width: 1342px;
+  margin: 0 auto;
+}
+
+.page-title {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  color: #181833;
+}
+
+.data {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+}
+
+.recharts-responsive-container {
+  min-height: 400px;
+}

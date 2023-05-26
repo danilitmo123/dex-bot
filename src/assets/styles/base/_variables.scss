@@ -1,0 +1,24 @@
+$tablet: '(max-width: 1023px)';
+$phone: '(max-width: 767px)';
+
+%g-regular {
+  font-family: 'Gilroy', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+%g-medium {
+  font-family: 'Gilroy', sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+%g-semi-bold {
+  font-family: 'Gilroy', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+%transition {
+  transition: all .2s ease-in-out;
+}

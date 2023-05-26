@@ -1,0 +1,27 @@
+{
+  "aliases": {
+    "components/*": ["../components", "../../components","./components"],
+    "config/*": ["../config", "../../config","./config"],
+    "assets/*": ["../assets", "../../assets","./assets"],
+    "contexts/*": ["../contexts", "../../contexts","./contexts"],
+    "features/*": ["../features", "../../features","./features"],
+    "hooks/*": ["../hooks", "../../hooks","./hooks"],
+    "routes/*": ["../routes", "../../routes","./routes"],
+    "state/*": ["../state", "../../state","./state"],
+    "style/*": ["../style", "../../style","./style"],
+    "utils/*": ["../utils", "../../utils","./utils"]
+  },
+  "rootDir": "./src",
+  "ignorePatterns": [
+    "**/node_modules/**",
+    "**/*.tests.{js,jsx,ts,tsx}",
+    "**/*.test.{js,jsx,ts,tsx}",
+    "**/*.spec.{js,jsx,ts,tsx}",
+    "**/tests/**",
+    "**/__tests__/**",
+    "**/*.d.ts"
+  ],
+  "ignoreUnimported": [],
+  "ignoreUnused": [],
+  "ignoreUnresolved": []
+}
