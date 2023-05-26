@@ -105,14 +105,6 @@ const ProfileDetails: FC<{ profile: IProfile }> = ({ profile }) => {
             <td>Buyers Count</td>
             <td>{profile.buyersCount}</td>
           </tr>
-          {/*<tr>*/}
-          {/*  <td>Receivers Count</td>*/}
-          {/*  <td>profile.receivers_count???</td>*/}
-          {/*</tr>*/}
-          {/*<tr>*/}
-          {/*  <td>Fee Percent</td>*/}
-          {/*  <td>profile.fee_percent??</td>*/}
-          {/*</tr>*/}
           <tr>
             <td>Gas Limit</td>
             <td>{profile.gasLimit}</td>
