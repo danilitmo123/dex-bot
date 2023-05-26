@@ -81,10 +81,10 @@ export default function App() {
             iconType="plainline"
             wrapperStyle={{top: 0}}
           />
-          <Line type="curveLinear" dataKey="MVDA" stroke="#5790FF" fill="#82ca9d"/>
-          <Line type="curveLinear" dataKey="MVDALC" stroke="#04C35C"/>
-          <Line type="curveLinear" dataKey="MVDAMC" stroke="#F3BA2F"/>
-          <Line type="curveLinear" dataKey="MVDASC" stroke="#C32604"/>
+          <Line dataKey="MVDA" stroke="#5790FF" fill="#82ca9d"/>
+          <Line dataKey="MVDALC" stroke="#04C35C"/>
+          <Line dataKey="MVDAMC" stroke="#F3BA2F"/>
+          <Line dataKey="MVDASC" stroke="#C32604"/>
           <Brush/>
         </LineChart>
       </ResponsiveContainer>
